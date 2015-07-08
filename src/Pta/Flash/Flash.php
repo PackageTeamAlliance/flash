@@ -1,4 +1,4 @@
-<?php namespace Laracasts\Flash;
+<?php namespace Pta\Flash;
 
 use Illuminate\Support\Facades\Facade;
 

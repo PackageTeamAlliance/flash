@@ -6,7 +6,7 @@ First, pull in the package through Composer.
 
 ```js
 "require": {
-    "laracasts/flash": "~1.3"
+    "pta/flash": "~1.3"
 }
 ```
 
@@ -14,7 +14,7 @@ And then, if using Laravel 5, include the service provider within `app/config/ap
 
 ```php
 'providers' => [
-    'Laracasts\Flash\FlashServiceProvider'
+    'Pta\Flash\FlashServiceProvider'
 ];
 ```
 
@@ -22,7 +22,7 @@ And, for convenience, add a facade alias to this same file at the bottom:
 
 ```php
 'aliases' => [
-    'Flash' => 'Laracasts\Flash\Flash'
+    'Flash' => 'Pta\Flash\Flash'
 ];
 ```
 

@@ -1,4 +1,4 @@
-<?php namespace Laracasts\Flash;
+<?php namespace Pta\Flash;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -20,12 +20,12 @@ class FlashServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(
-            'Laracasts\Flash\SessionStore',
-            'Laracasts\Flash\LaravelSessionStore'
+            'Pta\Flash\SessionStore',
+            'Pta\Flash\LaravelSessionStore'
         );
 
         $this->app->bindShared('flash', function () {
-            return $this->app->make('Laracasts\Flash\FlashNotifier');
+            return $this->app->make('Pta\Flash\FlashNotifier');
         });
     }
 
