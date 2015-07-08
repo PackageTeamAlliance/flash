@@ -20,7 +20,7 @@
             "Pta\\Flash": "src/"
         },
         "files": [
-            "src/Laracasts/Flash/functions.php"
+            "src/Pta/Flash/functions.php"
         ]
     },
     "minimum-stability": "stable"
