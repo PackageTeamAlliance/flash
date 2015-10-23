@@ -4,14 +4,14 @@ return [
 	
 	'frontend' => [
 		'success' => 'success',
-		'error'   => 'alert',
+		'error'   => 'danger',
 		'warning' => 'warning',
 		'info'    => 'info'
 	],
 
 	'admin' => [
 		'success' => 'success',
-		'error'   => 'alert',
+		'error'   => 'danger',
 		'warning' => 'warning',
 		'info'    => 'info'
 	]
